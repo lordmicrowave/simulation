@@ -1,6 +1,6 @@
 {
+  "homepage": "https://lordmicrowave.github.io/",
   "name": "simulation",
-  "homepage": "https://lordmicrowave.github.io/simulation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
