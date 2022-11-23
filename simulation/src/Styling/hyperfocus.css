@@ -1,0 +1,38 @@
+/*Terminal font by Unknown Designer at CDN Fonts
+https://www.cdnfonts.com/terminal.font*/
+@import url('https://fonts.cdnfonts.com/css/terminal?styles=132356');
+
+.typewriter-effect{
+    /*background-color: black;*/
+    color: rgb(0, 255, 0);
+    font-family: 'Terminal', sans-serif;
+    font-size: 20px;                                      
+    text-align: left;
+    margin-right: 100px;                                      
+}
+
+.Text{
+    background-color: black;
+}
+
+#reminder, #eat, #google, #drink, #bathroom, #pee, #break, #food{
+    display: block; 
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    left: 36%;
+    text-align: center;
+}
+
+.closeBtn{
+    cursor:grab;
+}
+
+.dialogueBtn{
+    margin-right: 10px;
+    border-style: outset;
+}
+
+
+

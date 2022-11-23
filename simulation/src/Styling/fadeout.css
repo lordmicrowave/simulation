@@ -1,0 +1,185 @@
+
+
+.body-background {
+    
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    /*background-color: rgba(67, 175, 237, 0.75);*/
+  }
+
+  h3, h4, h5{
+    position: relative;
+    left: 260px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+  }
+
+  .italics{
+    position: relative;
+    left: 260px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: navy;
+  }
+
+  .body-text{
+    position: relative;
+    left: 260px;
+    text-align: center;
+    font-size: 20px;
+    color: darkviolet;
+  }
+
+  .repeat-text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .compbanner{
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    height: 85px;
+    width: 85px;
+  }
+
+  .compbanner-flip{
+    position: absolute;
+    top: -10px;
+    right: -50px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .baby{
+    position: absolute;
+    right: -200px;
+    top: 200px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #myDIV{
+    position: absolute;
+    right: -200px;
+    top: 200px;
+    height: 200px;
+    width: 200px;
+  }
+
+
+
+  /*p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  } chang the p to something else otherwise it will 
+  change the p in all the other windows*/
+
+  .navbar {
+    margin: 30px;
+    padding: 20px;
+    width: 340px;
+    height: 40px;
+   /*border-top: 1px solid #d53939;*/
+   /* background: rgb(40,40,40);*/
+  }
+  .box {
+    width: 260px;
+    height: 42px;
+    line-height: 50px;
+    /*background: rgb(40,40,40);*/
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .box p {
+    margin: 0;
+    display: inline-block;
+    line-height: 14px;
+    vertical-align: middle;
+  }
+  .box p:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 150px;
+    height: 14px;
+    /*background: linear-gradient(to right, rgba(40, 40, 40, 0), rgba(40, 40, 40, 1) 50%);;*/
+  }
+
+  /*hey, focus*/
+  .above {
+    position: absolute;
+    bottom: -500px;
+    right: 0px;
+    height: 130px;
+    width: 1250px;
+    border: 3px solid #73ad2100;
+    font-size: 50px;
+    color:rgb(195, 255, 0);
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /*whats a google*/
+  div.fixed {
+    position: absolute;
+    bottom: -2700px;
+    right: 100px;
+    height: 300px;
+    width: 1150px;
+    border: 3px solid #2134ad00;
+    font-size: 150px;
+    color:rgb(232, 13, 13);
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  /* 
+Marquee code: Marquee using CSS3 keyframe animation
+by James Barnett on CodePen
+https://codepen.io/jamesbarnett/pen/kQebQO
+demo of the code found at: http://visualidiot.com/articles/css3 
+browser support: IE10+, Firefox 5+, Chrome, Safari 4+
+*/
+/*body { margin: 20px; }*/
+
+.marquee {
+  overflow: visible;
+  position: relative;
+  height: 20px;
+  width: 100%;
+
+  font-family: cursive;
+  font-size: 50px;
+  color: darkorange;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 100px;
+  left: 10px;
+
+  position: relative;
+  overflow: hidden;
+
+  animation: marquee 7s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}

@@ -1,0 +1,11 @@
+.Text {
+    font-family: sans-serif;
+    font-weight:500;
+    font-size:30px;
+    text-align: center;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    min-height:100vh;
+    
+  }

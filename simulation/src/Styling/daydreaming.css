@@ -1,0 +1,636 @@
+
+.container{
+  position: initial;
+}
+#background {
+    /* position:absolute;*/
+     height: 5000px;
+     background-image: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 15%, #2cb5e8 30%, #839ddb 45%, #6965db 60%, #ff6da2 75%, #f92672 90%);
+     }
+   
+     .glow{
+       color: #fff;
+     text-align: center;
+     animation: glow 1s ease-in-out infinite alternate;
+     }
+   
+     /*glow animation*/
+     @keyframes glow {
+       from {
+         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+       }
+       
+       to {
+         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+       }
+     }
+
+     .parallax {
+      position: relative;
+      bottom: 3200px;
+      left: 0px;
+      height: 1000px;
+      width: 1163px;
+    }
+   
+   .barcode {
+     position: relative;
+     right: 400px;
+     top: 2100px;
+     height: 200px;
+     width: 300px;
+   }
+   
+   .bubbles {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .circleFrame {
+     position: relative;
+     right: 100px;
+     bottom: 100px;
+     height: 200px;
+     width: 200px;
+   }
+   
+    .click{
+     position: relative;
+     top: 1600px;
+     right: 300px;
+     height: 60px;
+     width: 60px;
+   }
+   
+    .door {
+     position: relative;
+     top: 3030px;
+     left: 150px;
+     height: 300px;
+     width: 200px;
+   }
+   
+    .film {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .filmstrip{
+     position: relative;
+     top: 1950px;
+     left: 0px;
+     height: 300px;
+     width: 500px;
+   }
+   
+    .glasses {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .hearts{
+     position: relative;
+     bottom: 0px;
+     left: 0px;
+     height: 1500px;
+     width: 1163px;
+     z-index: 0;
+     opacity: 0.5;
+   }
+   
+    .lawn {
+     position: relative;
+     bottom: 1000px;
+     left: 0px;
+     height: 700px;
+     width: 1163px;
+   }
+   
+    .nebula{
+     height: 50px;
+     width: 50px;
+   }
+   
+    .paper {
+     position: relative;
+     bottom: 900px;
+     left: 100px;
+     height: 400px;
+     width: 300px;
+   }
+   
+ 
+   
+    .pinkclouds {
+     position: relative;
+     bottom: 1200px;
+     left: 0px;
+     height: 300px;
+     
+   }
+   
+   .pinkclouds-two {
+     position: absolute;
+     left: 0px;
+     bottom: 1200px;
+     height: 200px;
+     
+   }
+   
+   .pinkclouds-two-size {
+     position: absolute;
+     left: 0px;
+     bottom: 1200px;
+     height: 200px;
+     
+   }
+   
+    .ripPaper {
+     position: absolute;
+     right: 0px;
+     bottom: 500px;
+     height: 500px;
+     width: 500px;
+   }
+   
+    .roseFrame {
+     position: absolute;
+     bottom: 300px;
+     left: 100px;
+     height: 300px;
+     width: 300px;
+   }
+   
+    .softstars{
+     height: 50px;
+     width: 50px;
+   }
+   
+    .sonyTV {
+     position: absolute;
+     top: 2200px;
+     right: 50px;
+     height: 400px;
+     width: 400px;
+   }
+   
+    .squareFrame{
+     position: absolute;
+     right: 100px;
+     top: 500px;
+     height: 300px;
+     width: 300px;
+   }
+   
+    .stars {
+     position: absolute;
+     top: 1px;
+     left: 0px;
+     height: 1000px;
+     width: 1165px;
+   }
+   
+    .stickyNote {
+     position: absolute;
+     bottom: 750px;
+     left: 280px;
+     height: 250px;
+     width: 250px;
+   }
+   
+    .cloudOne {
+     position: absolute;
+     height: 100px;
+     width: 500px;
+   }
+   
+    .cloudStars {
+     position: absolute;
+     top: 300px;
+     left: 100px;
+     height: 150px;
+     width: 300px;
+   }
+   
+    .disk{
+     position: absolute;
+     top: 1450px;
+     right: 90px;
+     height: 50px;
+     width: 50px;
+   }
+   
+    .pinballShot {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .rainbow {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .rainbowCloud {
+     position: absolute;
+     top: 750px;
+     right: 80px;
+     height: 100px;
+     width: 100px;
+   }
+   
+    .roadhouse {
+     position: absolute;
+     left: 0px;
+     top: 2550px;
+     height: 300px;
+     width: 300px;
+   }
+   
+    .simblob {
+     position: absolute;
+     top: 400px;
+     right: 200px;
+     height: 100px;
+     width: 100px;
+   }
+   
+    .spinStar {
+     position: absolute;
+     top: 0px;
+     left: 560px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   /*thought bubble*/
+    .tCloud {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .loveLetter {
+     position: absolute;
+     bottom: 1200px;
+     right: 70px;
+     height: 50px;
+     width: 70px;
+   }
+   
+    .sparklesGold {
+     position: absolute;
+     bottom: 300px;
+     height: 500px;
+     width: 500px;
+   }
+   
+   .sparklesGold-two {
+     position: absolute;
+     bottom: 300px;
+     left: 0px;
+     height: 200px;
+     width: 200px;
+   }
+   
+   .sparklesGold-three {
+     position: absolute;
+     bottom: 500px;
+     left: 550px;
+     height: 200px;
+     width: 200px;
+   }
+   
+    .sparklesPink {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .sparkles {
+     position: absolute;
+     top: 2500px;
+     right: 0px;
+     height: 500px;
+     width: 500px;
+   }
+   
+    .redHearts {
+     height: 50px;
+     width: 50px;
+   }
+   
+    .petals {
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+     height: 500px;
+     width: 1165px;
+   }
+   
+    .cd {
+     position: absolute;
+     left: 150px;
+     top: 2100px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .overthink {
+     position: absolute;
+     top: 3000px;
+     left: 400px;
+     height: 500px;
+     width: 500px;
+   }
+   
+   .PinkThoughts {
+     height: 50px;
+     width: 50px;
+   }
+   
+   .text{
+     position: absolute;
+     
+   }
+   
+   .Trauma{
+     position: absolute;
+     top: 1400px;
+     left: 100px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Projects{
+     position: absolute;
+     top: 1500px;
+     left: 100px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Memories{
+     position: absolute;
+     top: 1600px;
+     left: 100px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Fantasies{
+     position: absolute;
+     top: 1700px;
+     left: 100px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Secrets{
+     position: absolute;
+     top: 1400px;
+     left: 250px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Folder{
+     position: absolute;
+     bottom: 1500px;
+     right: 300px;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .Progress{
+     position: absolute;
+     top: 1820px;
+     left: 0px;
+     height: 20px;
+     width: 1163px;
+   }
+   
+   .affirmation{
+     position: absolute;
+     left: 300px;
+     top: 250px;
+     z-index: 1;
+     width: 300px;
+     text-align: center;
+   }
+   
+   .letters{
+     position: absolute;
+     left: 900px;
+     top: 3400px;
+     width: 100px;
+     z-index: 1;
+     text-align:right;
+   }
+   
+   .projects-text{
+     position: absolute;
+     top: 1170px;
+     left: 60px;
+     width: 100px;
+     z-index: 1;
+     font-size: 12px;
+     text-align: center;
+   }
+   
+   .fantasies-text{
+     position: absolute;
+     top: 1370px;
+     left: 60px;
+     width: 100px;
+     z-index: 1;
+     font-size: 12px;
+     text-align: center;
+   }
+   
+   .memories-text{
+     position: absolute;
+     top: 1270px;
+     left: 60px;
+     width: 100px;
+     z-index: 1;
+     font-size: 12px;
+     text-align: center;
+   }
+   
+   .secrets-text{
+     position: absolute;
+     top: 1070px;
+     left: 212px;
+     width: 100px;
+     z-index: 1;
+     font-size: 12px;
+     text-align: center;
+   }
+   
+   .trauma-text{
+     position: absolute;
+     top: 1070px;
+     left: 60px;
+     width: 100px;
+     z-index: 1;
+     font-size: 12px;
+     text-align: center;
+   }
+   
+   .disk-text{
+     position: absolute;
+     top: 1120px;
+     left: 987px;
+     width: 100px;
+     z-index: 1;
+     text-align: center;
+   }
+   
+   .notes-text{
+     position: absolute;
+     left: 350px;
+     top: 3730px;
+     width: 100px;
+     z-index: 1;
+   }
+   
+   .list{
+     position: absolute;
+     left: 150px;
+     top: 3355px;
+     width: 100px;
+     z-index: 1;
+   }
+   
+   .folder-text{
+     position: absolute;
+     left: 775px;
+     top: 3150px;
+     width: 100px;
+     z-index: 1;
+     text-align: center;
+   }
+   
+   .glow-text-one{
+     position: absolute;
+     top: 600px;
+     left: 800px;
+     z-index: 1;
+     font-size: 20px;
+   
+     color: #fff;
+     text-align: center;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+   .glow-text-two{
+     position: absolute;
+     top: 2500px;
+     left: 400px;
+     z-index: 1;
+   
+     color: #fff;
+     text-align: center;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+   .glow-text-three{
+     position: absolute;
+     top: 2730px;
+     left: 650px;
+     z-index: 1;
+     font-size: 25px;
+   
+     color: #fff;
+     text-align: center;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+   .glow-text-four{
+     position: absolute;
+     top: 1900px;
+     left: 950px;
+     z-index: 1;
+     font-size: 40px;
+   
+     color: #fff;
+     text-align: center;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+   .Awesome{
+     position: absolute;
+     top: 450px;
+     left: 250px;
+     height: 300px;
+     width: 300px;
+     z-index: 1;
+   }
+   
+   .Portal{
+     position: absolute;
+     top: 3030px;
+     left: 150px;
+     height: 300px;
+     width: 200px;
+     z-index: -1;
+   }
+   
+   /*hover display*/
+   /* display element hover*/
+   .hide {
+     display: none;
+   }
+   
+   .filmGIF:hover + .hide {
+     display: block;
+     color: red;
+   }
+   
+   .filmGIF-two:hover + .hide {
+     display: block;
+     color: blue;
+   }
+   
+   .filmstrip-content-one{
+     position: absolute;
+     top: 2400px;
+     left: 70px;
+     height: 300px;
+     width: 500px;
+   }
+   
+   .filmstrip-content-two{
+     position: absolute;
+     top: 2400px;
+     left: 300px;
+     height: 300px;
+     width: 500px;
+   }
+   
+   .tvButton{
+     position: absolute;
+     top: 2550px;
+     right: 400px;
+     height: 50px;
+     width: 10px;
+     z-index: 1;
+   }
+   
+   .tvScreen{
+     position: absolute;
+     top: 2400px;
+     left: 800px;
+     height: 400px;
+     width: 400px;
+     z-index: 1;
+   }
+   
+   /* fairydust */
+   .info {
+     font-family: monospace;
+     position: absolute;
+     line-height: 20px;
+     font-size: 14px;
+     left: 20px;
+     top: 20px;
+   }
+   

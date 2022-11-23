@@ -1,0 +1,23 @@
+/*Terminal font by Unknown Designer at CDN Fonts
+https://www.cdnfonts.com/terminal.font*/
+@import url('https://fonts.cdnfonts.com/css/terminal?styles=132356');
+
+.error-text{
+  font-family: 'Terminal', sans-serif;
+  color: white;
+}
+
+.error{
+  position:relative;
+  top: 10px;
+  left: 250px;
+}
+
+.refresh-btn{
+  position:relative;
+  top: 30px;
+  left: 250px;
+}
+
+
+

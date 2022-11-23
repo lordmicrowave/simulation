@@ -1,0 +1,19 @@
+.window-tabs{
+    position: initial;
+    margin-left: -10px;
+    width: 1207px;
+}
+
+.alert-icon{
+    position: relative;
+    left: 90px;
+    height: 25px;
+    width: 25px;
+    
+    
+}
+
+.html-tip-txt{
+    text-align:justify;
+    font-family: "Pixelated MS Sans Serif";
+}

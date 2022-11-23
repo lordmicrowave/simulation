@@ -1,0 +1,180 @@
+
+
+#canvas {
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: #fff;
+  }
+  h1 {
+    color: green;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .no {
+    text-align: center;
+    background-image: url(../Assets/static-tv-static.gif);
+  }
+  
+  /* zone out texts*/
+  .hey{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: rgb(253, 1, 1);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /*muffled sounds*/
+  .muffles{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    color: rgb(248, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  
+  /*huh, what?*/
+  .huh{
+    position: absolute;
+    top: 300px;
+    left: 220px;
+    color: rgb(246, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 49px;
+    cursor: pointer;
+    opacity: 1.5;
+  }
+  
+  /*did somebody say something? add sound*/
+  .what{
+    position: absolute;
+    top: 180px;
+    left: 850px;
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: url(../Assets/barcode.png), pointer;
+  }
+  
+  /*??????*/
+  .question{
+    position: absolute;
+    top: 320px;
+    left: 480px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /*??????*/
+  .sound-one{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    color: rgb(253, 6, 6);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  /*??????*/
+  .sound-two{
+    position: absolute;
+    top: 450px;
+    left: 850px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /*
+  <div className="background">
+          <img class="static" style={{ width: "103%", height: "100%" }} src={staticGif} alt="static"/>
+      </div>
+      */
+  
+  /* fade text*/
+  .fadeOut{
+    animation: fadeOut 5s ease 3s 1 normal forwards;
+  }
+  
+  @keyframes fadeOut {
+      0% {
+          opacity: 1;
+      }
+  
+      100% {
+          opacity: 0;
+      }
+  }
+  
+  .blurCursor{
+    cursor: url(../Assets/blur.png) , default;
+  }
+  
+  /* static background*/
+  .tv-static {
+    width: 1140px;
+    height: 400px;
+    
+    background-image: repeating-radial-gradient(white, black 0.00085%);
+    animation: radial 25s linear infinite;
+  }
+  
+  @keyframes radial {
+      from {
+      background-size: 100% 100%;
+    }
+    to {
+      background-size: 200% 200%;
+    }
+  }
+  
+  /* static second layer */
+  .tv-static-two {
+    width: 1140px;
+    height: 400px;
+    
+    background-image: repeating-conic-gradient(white, black 0.00100%);
+    animation: back 25s linear infinite;
+  }
+  
+  @keyframes back {
+      from {
+      background-size: 100% 100%;
+    }
+    to {
+      background-size: 200% 200%;
+    }
+  }
+  
+  
+  /* frosty glass cursor */
+  .cursor {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(4px);
+    height: 200px;
+    width: 200px;
+    transition: .1s linear;
+  }
+  
+  /*audio*/
+  .stopAudio {
+    display: none;
+  }
+      
+  .audioDIV:hover + .stopAudio {
+    display: block;
+    color: red;
+  }
+  

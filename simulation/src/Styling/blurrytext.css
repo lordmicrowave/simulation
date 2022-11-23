@@ -1,0 +1,170 @@
+#blur {
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0);
+  }
+  /**/
+
+  #blur {
+    display: inline;
+    
+    letter-spacing: 2px;
+    background-color: rgba(67, 175, 237, 0);
+  }
+  #blur span:nth-child(1) {
+    color: transparent;
+    text-shadow: 0 0 2px #fff;
+    font-size: 32px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(2) {
+    color: transparent;
+    text-shadow: 0 0 3px #fff;
+    font-size: 35px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(3) {
+    color: transparent;
+    text-shadow: 0 0 2px #fff;
+    font-size: 33px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(4) {
+    color: transparent;
+    text-shadow: 0 0 4px #fff;
+    font-size: 34px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(5) {
+    color: transparent;
+    text-shadow: 0 0 6px #fff;
+    font-size: 41px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(6) {
+    color: transparent;
+    text-shadow: 0 0 10px #fff;
+    font-size: 40px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(7) {
+    color: transparent;
+    text-shadow: 0 0 8px #fff;
+    font-size: 36px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(8) {
+    color: transparent;
+    text-shadow: 0 0 6px #fff;
+    font-size: 38px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(9) {
+    color: transparent;
+    text-shadow: 0 0 4px #fff;
+    font-size: 36px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(10) {
+    color: transparent;
+    text-shadow: 0 0 6px #fff;
+    font-size: 34px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(11) {
+    color: transparent;
+    text-shadow: 0 0 2px #fff;
+    font-size: 32px;
+    font-family: 'Carme', sans-serif;
+  }
+  #blur span:nth-child(12) {
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+    font-size: 32px;
+    font-family: 'Carme', sans-serif;
+  }
+
+  #blurout {
+    font-size: 20px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+  }
+
+  /* animated blur*/
+  div.at-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	.at-item {
+		/*color: #3079ed; font-weight:bold; font-size:3em;*/
+		
+		animation-name: text-blur-out;
+		animation-duration: 10.2s;
+		animation-timing-function: ease-out;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+		animation-direction: normal;
+		animation-fill-mode: none;
+			
+		/* shorthand
+		animation: text-blur-out 10.2s ease-out 0s infinite normal none;*/
+	}
+	@keyframes text-blur-out {
+			
+		0% {
+			filter:blur(0);
+		}
+		100% {
+			filter:blur(12px) opacity(0%);
+		}
+	}
+
+  /*scatter text*/
+  div.container {
+    background-color: #FAFAFA ;
+    border: 1px solid #CCCCCC ;
+    border-radius: 4px 4px 4px 4px ;
+    box-sizing: border-box ;
+      -moz-box-sizing: border-box ;
+      -webkit-box-sizing: border-box ;
+    left: 50% ;
+    top: 30% ;
+    height: 130px ;
+    width: 450px ;
+    margin: -65px 0px 0px -225px ;
+    padding-top: 20px ;
+    position: absolute ;
+  }
+  
+  div.container.c2 {
+      top: 60%;
+  }
+  
+  div.container div.tagline {
+    font-size: 20px ;
+    font-weight: 600 ;
+    margin-bottom: 20px ;
+    text-align: center ;
+    text-transform: uppercase ;
+  }
+  
+  div.container div.tagline em {
+    color: #FF0099 ;
+    font-style: normal ;
+  }
+  
+  div.container input {
+    box-sizing: border-box ;
+      -moz-box-sizing: border-box ;
+      -webkit-box-sizing: border-box ;
+    display: block ;
+    margin: 0px auto 0px auto ;
+    padding: 5px 5px 5px 5px ;
+    font-size: 20px ;
+    font-weight: 300 ;
+    text-align: center ;
+    width: 300px ;
+  }
+  
